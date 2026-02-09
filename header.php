@@ -321,12 +321,12 @@
               <span data-i18n="nav.about">ჩვენს შესახებ</span> <span class="caret">▾</span>
             </button>
             <div class="menu" role="menu">
-              <a href="index.php#about-history" data-i18n="nav.aboutHistory">ისტორია</a>
-              <a href="index.php#about-mission" data-i18n="nav.aboutMission">მისია</a>
-              <a href="index.php#about-vision" data-i18n="nav.aboutVision">ხედვა</a>
-              <a href="index.php#about-structure" data-i18n="nav.aboutStructure">სტრუქტურა</a>
+              <a href="<?=h(url('history.php'))?>" data-i18n="nav.aboutHistory">ისტორია</a>
+              <a href="<?=h(url('mission.php'))?>" data-i18n="nav.aboutMission">მისია</a>
+              <a href="<?=h(url('vision.php'))?>" data-i18n="nav.aboutVision">ხედვა</a>
+              <a href="<?=h(url('structure.php'))?>" data-i18n="nav.aboutStructure">სტრუქტურა</a>
               <a href="index.php#about-career" data-i18n="nav.aboutCareer">კარიერული განვითარების გეგმა</a>
-              <a href="index.php#about-message" data-i18n="nav.aboutMessage">ხელმძღვანელის მიმართვა</a>
+              <a href="<?=h(url('message.php'))?>" data-i18n="nav.aboutMessage">ხელმძღვანელის მიმართვა</a>
             </div>
           </div>
 
@@ -342,16 +342,16 @@
             </div>
           </div>
 
-          <a href="index.php#contact" data-i18n="nav.contact">კონტაქტი</a>
+          <a href="<?=h(url('contact.php'))?>" data-i18n="nav.contact">კონტაქტი</a>
         </nav>
       </div>
 
       <div class="container mobile" id="mobile">
         <a href="index.php#home" data-i18n="nav.home">მთავარი</a>
         <a href="index.php#news" data-i18n="nav.news">სიახლეები</a>
-        <a href="index.php#about-history" data-i18n="nav.about">ჩვენს შესახებ</a>
+        <a href="<?=h(url('history.php'))?>" data-i18n="nav.about">ჩვენს შესახებ</a>
         <a href="index.php#team-pr" data-i18n="nav.team">გუნდი</a>
-        <a href="index.php#contact" data-i18n="nav.contact">კონტაქტი</a>
+        <a href="<?=h(url('contact.php'))?>" data-i18n="nav.contact">კონტაქტი</a>
         <a href="#register" data-i18n="header.registerCta">რეგისტრაცია</a>
         <a href="#signin" data-i18n="header.signin">Sign in</a>
       </div>
