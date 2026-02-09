@@ -9,6 +9,7 @@ include __DIR__ . "/header.php";
 //   ['image' => 'assets/team/person.jpg', 'name' => 'Name Lastname', 'position' => 'Position'],
 // ];
 $people = [];
+include __DIR__ . "/header.php";
 ?>
 <section class="section">
   <div class="container" style="max-width:1000px;padding:40px 0">
