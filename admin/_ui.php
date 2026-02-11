@@ -13,6 +13,11 @@ function admin_head(string $title): void {
 }
 
 function admin_topbar(string $title, array $links = []): void {
+  static $rendered = false;
+  if ($rendered) {
+    return;
+  }
+  $rendered = true;
   ?>
   <div class="admin-top">
     <h2 class="admin-title"><?=h($title)?></h2>

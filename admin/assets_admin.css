@@ -34,5 +34,3 @@ label{display:block;margin-bottom:6px;color:var(--muted);font-size:13px}
 .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid rgba(34,197,94,.35);background:rgba(34,197,94,.15)}
 .pill.off{border-color:rgba(239,68,68,.4);background:rgba(239,68,68,.12)}
 @media (max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr}}
-
-.admin-top + .admin-top{display:none}
