@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 require __DIR__ . '/../../inc/bootstrap.php';
-require_once __DIR__ . '/../_ui.php';
+require __DIR__ . '/../_ui.php';
 require_admin();
 require_permission('contact.view');
 ensure_contact_messages_table();
