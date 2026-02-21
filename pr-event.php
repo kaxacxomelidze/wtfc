@@ -8,8 +8,7 @@ $people = get_people_by_page('pr-event');
 ?>
 <section class="section">
   <div class="container" style="max-width:1000px;padding:40px 0">
-    <h2 style="margin-bottom:12px">PR &amp; EVENT</h2>
-    <p style="line-height:1.9">გვერდზე აისახება PR &amp; EVENT გუნდის წევრები.</p>
+
   </div>
 </section>
 <?php render_people_section('PR & EVENT', $people); ?>

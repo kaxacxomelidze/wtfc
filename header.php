@@ -304,7 +304,7 @@
         </a>
 
         <div class="actions">
-          <a class="btn primary" href="#register" data-i18n="header.registerCta">რეგისტრაცია</a>
+          <a class="btn primary" href="#register" data-i18n="header.registerCta">გაწევრიანება</a>
           <button class="btn burger" id="burger" type="button" aria-label="Open menu">☰</button>
         </div>
       </div>
